@@ -338,7 +338,7 @@ export default function KeepsPage({ keeps }) {
 
 export async function getServerSideProps(context) {
     const { userId } = context.params;
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || `https://${context.req.headers.host}`;
     const res = await fetch(`${baseUrl}/api/AddKeeps?userId=${userId}`);
 
     if (!res.ok) {

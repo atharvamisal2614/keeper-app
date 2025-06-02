@@ -1,0 +1,22 @@
+//Frontend Tasks.
+Tasks you need to perform
+1. Design visually appealing Frontend for Login Page and signup Page.
+2. Design Good looking and user engaging page of keeps where user can strore his secret keeps.
+3. On keeps page we need (+) button at bottom right, when user will click that button then form should be open for user to add keeps
+    with title and content, all keeps should be in card visually appealing designs.
+4. Add loader for pages while pages are loading for user engagement. User should see loaders(Hint -:  Use react-top-loading-bar)
+5. Add animation for keeps cards when user hover on them.
+6. Notify users if user is logged in, error occured, added keep successfully (Hint -: Use react-toastify)
+7. Add search functionality for keeps page, user can search keeps by title.( Optional if you want to practice and make it perfect one...)
+6. Add Delete and update button for every keep.
+
+//Backend Tasks.
+Tasks you need to perform
+1. Passwords are stored in database only in text format, store passwords in hashed and secured format. You can use AES, bcrypt, salting, SHA256 any method for this.
+2. User Authorization is just based on userId, add JWT to authorize users.
+3. Add API for user to update keeps, delete keeps. 
+
+//Deployment Tasks
+1. Push this code on github
+2. Deploy this code on vercel
+3. Make sure that your code is deployed successfully and it is working as expected.
